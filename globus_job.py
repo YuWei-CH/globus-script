@@ -4,7 +4,7 @@ from globus_compute_sdk import Executor
 
 '''
 command: command that will be run on remote cluster
-source_endpoint_ID: UUID for Globus Connect Personal. This can be found on the Globus website.
+source_endpoint_ID: UUID for Globus Connect Personal. This can be found on the Globus website or client.
 remote_endpoint_ID: UUID for the Globus Connect endpoint for the NYU Greene scratch folder.
 compute_endpoint_ID: ID for the remote compute endpoints used by Globus Compute.
 '''

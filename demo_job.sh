@@ -5,7 +5,7 @@
 #SBATCH --time=00:10:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=80G
+#SBATCH --mem=5G
 
 echo "Starting job at $(date)"
 # Simulate a 2 mins job
